@@ -1,6 +1,6 @@
 {
 	"Database": {
-		"Type": "Bolt",
+		"Type": "MySQL",
 		"Bolt": {		
  			"Path": "gowebapp.db"
   		},
@@ -10,9 +10,9 @@
 		},
 		"MySQL": {
 			"Username": "root",
-			"Password": "",
+			"Password": "changeme",
 			"Name": "gowebapp",
-			"Hostname": "127.0.0.1",
+			"Hostname": "mysql-mysql.default.svc.cluster.local",
 			"Port": 3306,
 			"Parameter": "?parseTime=true"
 		}
