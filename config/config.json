@@ -12,7 +12,7 @@
 			"Username": "root",
 			"Password": "changeme",
 			"Name": "gowebapp",
-			"Hostname": "mysql-mysql.default.svc.cluster.local",
+			"Hostname": "mysql.default.svc.cluster.local",
 			"Port": 3306,
 			"Parameter": "?parseTime=true"
 		}
